@@ -1,4 +1,4 @@
-"""Safe Code Day 1"""
+"""Day 1, Safe Code, Part 1"""
 
 
 def read_data(filename: str) -> list[str]:
