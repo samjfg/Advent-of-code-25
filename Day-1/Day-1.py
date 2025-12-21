@@ -1,4 +1,4 @@
-"""Safe Code"""
+"""Safe Code Day 1"""
 
 
 def read_data(filename: str) -> list[str]:
@@ -10,7 +10,7 @@ def read_data(filename: str) -> list[str]:
 def dial_at_zero_count(file_input: list[str]) -> int:
     """
     Given the list of instruction returns the number 
-    of times the dial reaches zero.
+    of times the dial lands on zero.
     """
     dial_state = 50
     zero_count = 0
