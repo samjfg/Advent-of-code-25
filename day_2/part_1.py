@@ -1,3 +1,6 @@
+"""Day 2, invalid id's, part 1"""
+
+
 def read_data(filename: str) -> list[str]:
     """Returns a list with each line of the file as an element."""
     with open(filename, "r") as f:
@@ -5,6 +8,7 @@ def read_data(filename: str) -> list[str]:
 
 
 def invalid_inputs_sum(input_data):
+    """Returns the sum of all of the invalid inputs."""
     invalid_list = []
     for id in input_data:
         id_range = id.split("-")
