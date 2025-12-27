@@ -5,8 +5,8 @@ import numpy as np
 
 
 def load_data(file):
+    """Loads the input data as an array."""
     with open(file, "r", encoding="utf-8") as f:
-        # return [list(line) for line in f]
         return np.array([list(line.strip()) for line in f])
 
 
@@ -39,7 +39,6 @@ def accessible_rolls(data):
 
 
 input_data = load_data("input.txt")
-
 
 roll_sum = accessible_rolls(input_data)
 print(roll_sum)
